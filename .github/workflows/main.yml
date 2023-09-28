@@ -30,8 +30,8 @@ jobs:
           path: coverage/
 
       - uses: JS-DevTools/npm-publish@v1
-          with: 
-            token: ${{secrets.NPM_PUBLISH_TOKEN}}
+        with: 
+          token: ${{secrets.NPM_PUBLISH_TOKEN}}
 
 
 
