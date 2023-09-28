@@ -28,11 +28,11 @@ const ButtonUI = styled.button<IButtonProps>`
   ${({ buttontype }: { buttontype: TestButtonTypesEnum }) =>
     buttontype === TestButtonTypesEnum.Secondary &&
     css`
-      background: #eed971;
+      background: hotpink;
       color: black;
 
       &:hover {
-        background: #e8cc42;
+        background: hotpink;
       }
     `}
 `;

@@ -20,6 +20,6 @@ describe("Test button", () => {
         );
     
         const buttonElement = screen.getByRole('button');
-        expect(buttonElement).toHaveStyleRule('background', '#eed971');
+        expect(buttonElement).toHaveStyleRule('background', 'hotpink');
       });
 })
